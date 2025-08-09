@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Father - OBC Morcha Adhyach</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-image: url('rakhi.png');
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; /* ensures full coverage */ 
+    }
+
+    .overlay {
+      position: relative;
+      width: 100%;
+      min-height: 100vh;
+      background-color: rgba(0, 0, 0, 0.4); /* semi-transparent layer to improve text readability */
+      color: #f3b509;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .overlay h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .photo {
+      width: 150px;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+
+    .description {
+      font-size: 1.2rem;
+      max-width: 600px;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      .overlay h1 {
+        font-size: 2rem;
+      }
+      .photo {
+        width: 100px;
+      }
+      .description {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>happy rakhi all of you,buddy.</h1>
+    <img src="father.png" alt="khiraj suthar" class="photo" />
+    <p class="description">
+      OBS Front President
+      ~khiraj suthar~
+    </p>
+  </div>
+</body>
+</html>
